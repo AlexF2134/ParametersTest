@@ -8,8 +8,17 @@ class SQRServiceTest {
     @Test
     void shouldCalculate() {
         SQRService service = new SQRService();
-        int expected = 10;
-        int actual = service.calculate(100);
+        int expected = 15;
+        int actual = service.calculate(15);
         Assertions.assertEquals(expected, actual);
     }
+
+//    @Test
+//    void shouldCount() {
+//        SQRService service = new SQRService();
+//        int expected = 3;
+//        int actual = service.calculate(3);
+//        Assertions.assertEquals(expected, actual);
+//    }
+
 }
